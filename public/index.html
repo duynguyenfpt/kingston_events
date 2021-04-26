@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/res_style.css">
     <title>Kingston Events</title>
-    <link href="https://kingston-event.com/philippines/17yearsno1/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="https://kingston-event.com/philippines/17yearsno1/images/favicon.ico" rel="shortcut icon" type="images/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
 </head>
 <body>
-<!--     <div class="container">
+    <div class="container">
         <div id="main-content">
             <img id="golden" src="./images/Asset 2@6x.png">
             <img id="golden_money" src="./images/Asset 3@6x.png">
@@ -64,7 +64,7 @@
                                     <div class="Td_1">Upload Your Purchase Receipt:</div>
                                     <div class="Td_2 fill">
                                         <div class="fileBtn">
-                                            <input id="file-upload" type="file" accept="image/jpeg, image/png"  name="file" data-preview-img="file" data-upload-input="thum_base64" data-max-height="270">
+                                            <input id="file-upload" type="file" accept="images/jpeg, images/png"  name="file" data-preview-img="file" data-upload-input="thum_base64" data-max-height="270">
                                             <span>Kích thước ảnh không được quá 2MB / jpg.</span>
                                         </div>           
                                     </div>
@@ -124,7 +124,129 @@
             <p> <b>Kingston Is With You </b></p>
             <img id="logo-footer" src="./images/logo@6x.png">
         </div>
-    </div> -->
+    </div>
     <h1>Thông tin chương trình "Hè rộn ràng - Ngàn quà tặng" sẽ được cập nhật vào ngày 29/04/2021</h1>
 </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kingston</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="nav-logo">
+            <img src="images/image_1.png" alt="">
+          </div>
+          <div class="nav-logo2">
+            <img src="images/image_2.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="title-img">
+            <img src="images/image_3.png" alt="">
+            <div class="title-img-2">
+              <img src="images/image_4.png" alt="">
+            </div>
+          </div>
+         
+          <div class="title-img-3 flex-cl">
+            <div><img src="images/image_5.png" alt=""></div>
+            <div class="pink-bg">
+              <img src="images/image_6.png" alt="">  
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="img-1">
+            <img src="images/image_7.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="second-title-img">
+            <img src="images/image_8.png" alt="">
+            <div class="pos-absolute gift-img">
+              <img src="images/image_9.png" alt="">
+            </div>
+            <div class="pos-absolute img-detail-13">
+              <img src="images/image_13.png" alt="">
+            </div>
+            <div class="pos-absolute detail-gift fs-gift-detail"><span><b>+ Tặng 1 set gối du lịch và bịt mắt khi mua SSD Kingston 480G  <br>+ Tặng 3 chiếc khẩu trang khi mua RAM Kingston 16G+</b></span></div>  
+          </div>
+        </div>
+      </div>
+      <div class="information">
+        <form id="thisfrm" action="/summerEventUsers/upload" method="POST" enctype="multipart/form-data">
+          <span class="white-text text-center text-bold title-infor center">NHẬP THÔNG TIN BỐC THĂM TRÚNG THƯỞNG</span>
+          <div class="row text-center">
+            <table class="infor-table">
+              <tr class="spacer">
+                <td style="width: 130px;"><span class="white-text">Họ và tên:</span></td>
+               
+                <td><input id="name_check" type="text" name="user_name" class="form-input"
+                    data-validate="^([A-Za-z]+ [A-Za-z]+){1,}$" required=""></td>
+              </tr>
+              <tr>
+                <td><span class="white-text">Số điện thoại:</span></td>
+                <td><input type="text" name="user_phone" class="form-input" required=""></td>
+              </tr>
+              <tr>
+                <td><span class="white-text">Email:</span></td>
+                <td><input id="email_check" type="text" name="user_email" class="form-input"
+                    data-validate="^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" required=""></td>
+              </tr>
+              <tr>
+                <td><span class="white-text">Địa chỉ:</span></td>
+                <td><input type="text" name="user_addr" class="form-input"></td>
+              </tr>
+              <tr>
+                <td colspan="2"><span class="white-text">Upload Your Pushchase Receipt:</span></td>
+              </tr>
+              <tr>
+                <td colspan="2"> <input id="file-upload" type="file" accept="images/jpeg, images/png"  name="file" data-preview-img="file" data-upload-input="thum_base64" data-max-height="270">
+                    <span class="white-text"><i>Kích thước ảnh không được quá 2MB / jpg.</i></span></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <label class="white-text"><input type="checkbox">Tôi đồng ý với điều kiện ban tổ chức đưa ra</label>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="row text-center">
+            <button class="btn-custom" type="submit"><b>Gửi thông tin</b></button>
+          </div>
+        </form>
+      </div>
+      <div class="rule">
+        <div><span><i>Điều khoản và điều kiện tham gia chương trình Bốc thăm may mắn Kingston</i> <br></span></div>
+        <div class="sp-space"><span>Thể lệ:Khi mua sản phẩm Kingston bất kỳ, bạn có cơ hội tham gia chương trình bốc thăm trúng thưởng các quà tặng giá trị và hấp dẫn. <br></span></div>
+        <div class="sp-space"><span>Tổng trị giá giải thưởng 25.000.000 VND<br></span></div>
+        <div class="detail">
+          <span>• Giải thưởng: 01 máy chơi game Sony PlayStation 5 Standard CFI-1018BA <br></span>
+        </div>
+        <div class="sp-space"><span>Các lưu ý khác: <br></span></div>
+        <div class="detail">
+          <span>• Chương trình khuyến mãi chỉ dành cho cư dẫn lưu trú tại Việt Nam. Người tham gia dưới mười ba (13) tuổi phải được sự đồng ý của cha mẹ và/hoặc người giám hộ trước khi tham gia chương trình Bốc thăm may mắn. <br></span>
+          <span>• Chương trình này có hiệu lực từ ngày 29 tháng 04 năm 2021 đến ngày 06 tháng 06 năm 2021 và chỉ áp dụng tại các đại lý bản hàng Kingston chính hãng trên toàn quốc và các cửa hàng chính hãng của Kingston trên Shopee và Lazada. <br></span>
+          <span>• Khi tham gia chương trình Bốc thăm may mắn này, người tham gia đồng ý sử dụng thông tin được gửi trang biểu mẫu rút thăm trúng thưởng mà không được trả tiền cho các mục đích quảng cáo và tiếp thị của Kingston.  <br></span>
+          <span>• Mỗi người có thể tham gia nhiều lượt tham gia bốc thăm may mắn. Một biên nhận/giao dịch/hóa đơn sẽ chỉ được coi là một phiếu. Người tham gia phải giữ chứng từ/hóa đơn gốc của mình để nhận giải thưởng. <br></span>
+          <span>• Những người chiến thắng chương trình Bốc thăm may mắn sẽ được công bố trên trang Fanpage chính thức của Kingston Việt Nam và được thông báo vào ngày 02 tháng 07 năm 2021 qua email thông báo giải thưởng. <br></span>
+          <span>• Người thắng cuộc chương trình Bốc thăm may mắn phải phản hồi trong vòng một tuần (07 ngày) kể từ ngày được thông báo để trở thành người chiến thắng đủ điều kiện. Người thắng cuộc không phản hồi trong thời gian yêu cầu sẽ bị mất quyền nhận giải thưởng. <br></span>
+          <span>• Giải thưởng sẽ được chuyển đến người thắng cuộc đủ điều kiện trong vòng 14 ngày làm việc kể từ ngày thông báo và xác nhận người thắng cuộc. <br></span>
+          <span>• Trong trường hợp có người tham gia bị loại khỏi chương trình Bốc thăm may mắn, Kingston có toàn quyền quyết định xem có nên chọn người tham gia thay thế hay không. Bất kỳ người tham gia tiếp theo nào sẽ được chọn theo cùng tiêu chí với người tham gia ban đầu và sẽ tuân theo các Điều khoản và Điều kiện <br></span>
+          <span>• Giải thưởng không thể chuyển nhượng và không thể quy đổi thành tiền mặt hoặc các vật phẩm khác. Kingston có quyền thay thế bất kỳ giải thường nào bằng các vật phẩm có giá trị tương tự mà không cần thông báo trước. <br></span>
+          <span>• Việc đổi hàng sẽ thi được phép đối với những sản phẩm đã nhận bị hỏng hoặc sai quy cách. <br></span>
+          <span>• Kingston có quyền loại tất cả các phiếu dự thi không đáp ứng các quy tắc và quy định của chương trình khuyến mãi. Chúng bao gồm các phiếu được gửi với thông tin không hợp lệ hoặc không chính xác. <br></span>
+          <span>• Kingston có quyền sửa đổi các Điều khoản & Điều Khin của chương trình khuyến mãi này bất kỳ lúc nào mà không cần thông báo trước. <br></span>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

@@ -36,11 +36,9 @@ router.get('/users/:id/',async (req,res,next) =>{
         res.set('Content-Type','image/jpg')
         res.send(user.bill)
     }catch(e){
-      console.log(e)
-        res.status(404).send()
+      res.status(404).send()
     }
     
 })
-
 
 module.exports = router

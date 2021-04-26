@@ -1,0 +1,157 @@
+body{
+    font-family: proxima-nova,sans-serif;
+    line-height: 1.5;
+    color: #353535;
+    font-weight: 300;
+    letter-spacing: normal;
+    font-size: 0.9em;
+    /* font-size: 7px; */
+    margin: 0;
+    height: auto;
+}
+.wrapper{
+   background-color: blueviolet;
+   padding: 5px 5px 0 5px;
+ 
+}
+.container{
+    border: 1px solid #0d0d0d;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.nav-logo{
+    max-width: 250px;
+}
+.nav-logo2{
+    max-width: 150px;
+}
+.title-img{
+    max-width: 40%;
+    background-color: #f7c9ca;
+    position: relative;
+}
+.pink-bg{
+    background-color: #f7c9ca;
+}
+.img-1{
+    width: 70%;
+}
+/* .promotion{
+    width: 100%;
+}
+.promotion-container{
+    background-image: url("../image/image_8.png");
+    padding: 100px;
+} */
+.pos-absolute{
+    position: absolute;
+}
+.information{
+    background-color: #3ca6a6;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.white-text{
+    color:#ffffff;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+}
+.form-input{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    height: 15px;
+}
+input[type=text]:focus{
+    outline: none;     /* oranges! yey */
+}
+.text-bold{
+    font-weight: bold;
+}
+.infor-table{
+    width: 60%;
+    margin-top: 20px;
+    border-collapse:separate; 
+    border-spacing: 0 0.5em;
+}
+.title-infor{
+    font-size: 1.7em;
+}
+
+.btn-custom{
+    color:black;
+    background-color: #efcf67;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+    padding: 5px 20px 5px 20px;
+}
+.rule{
+    background-color: #fbf6e6;
+    padding: 30px 50px 30px 50px;
+}
+.detail{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.sp-space{
+    margin-top: 5px;
+}
+.title-img-2{
+    max-width: 40%;
+    position: absolute;
+    top: 4%;
+    right: -10%;
+}
+.title-img-3{
+    max-width: 30%;
+    margin-left: 5%;
+}
+.flex-cl{
+    display: flex;
+    flex-direction: column;
+}
+.second-title-img{
+    max-width: 80%;
+    position: relative;
+}
+.gift-img{
+    max-width: 70%;
+    right: 5%;
+    top: 2%;
+}
+.img-detail-13{
+    max-width: 20%;
+    top: 20%;
+    left: 5%;
+}
+.detail-gift{
+    top: 60%;
+    left: 5%;
+    max-width: 30%;
+}
+@media screen and (min-width: 375px) and (max-width: 1024px) {
+    .fs-gift-detail{
+        font-size: 6px;
+    }
+}
+.center{
+    text-align: center;
+}
+
