@@ -190,41 +190,43 @@
       <div class="information">
         <div class="information-container">
           <form id="thisfrm" action="/summerEventUsers/upload" method="POST" enctype="multipart/form-data">
-            <span class="white-text text-center text-bold title-infor center">NHẬP THÔNG TIN BỐC THĂM TRÚNG THƯỞNG</span>
             <div class="row text-center">
-              <table class="infor-table">
-                <tr class="spacer">
-                  <td style="width: 100px;"><span class="white-text">Họ và tên:</span></td>
-                
-                  <td><input id="name_check" type="text" name="user_name" class="form-input"
-                      data-validate="^([A-Za-z]+ [A-Za-z]+){1,}$" required=""></td>
-                </tr>
-                <tr>
-                  <td><span class="white-text">Số điện thoại:</span></td>
-                  <td><input type="text" name="user_phone" class="form-input" required=""></td>
-                </tr>
-                <tr>
-                  <td><span class="white-text">Email:</span></td>
-                  <td><input id="email_check" type="text" name="user_email" class="form-input"
-                      data-validate="^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" required=""></td>
-                </tr>
-                <tr>
-                  <td><span class="white-text">Địa chỉ:</span></td>
-                  <td><input type="text" name="user_addr" class="form-input"></td>
-                </tr>
-                <tr>
-                  <td colspan="2"><span class="white-text">Upload Your Pushchase Receipt:</span></td>
-                </tr>
-                <tr>
-                  <td colspan="2"> <input id="file-upload" type="file" accept="images/jpeg, images/png"  name="file" data-preview-img="file" data-upload-input="thum_base64" data-max-height="270">
-                      <span class="white-text"><i>Kích thước ảnh không được quá 2MB / jpg.</i></span></td>
-                </tr>
-                <tr>
-                  <td colspan="2">
-                    <label class="white-text"><input type="checkbox">Tôi đồng ý với điều kiện ban tổ chức đưa ra</label>
-                  </td>
-                </tr>
-              </table>
+              <div class="form-container">
+                <span class="white-text text-center text-bold title-infor center">NHẬP THÔNG TIN BỐC THĂM TRÚNG THƯỞNG</span>
+                <table class="infor-table">
+                  <tr class="spacer">
+                    <td style="width: 100px;"><span class="white-text">Họ và tên:</span></td>
+                  
+                    <td><input id="name_check" type="text" name="user_name" class="form-input"
+                        data-validate="^([A-Za-z]+ [A-Za-z]+){1,}$" required=""></td>
+                  </tr>
+                  <tr>
+                    <td><span class="white-text">Số điện thoại:</span></td>
+                    <td><input type="text" name="user_phone" class="form-input" required=""></td>
+                  </tr>
+                  <tr>
+                    <td><span class="white-text">Email:</span></td>
+                    <td><input id="email_check" type="text" name="user_email" class="form-input"
+                        data-validate="^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" required=""></td>
+                  </tr>
+                  <tr>
+                    <td><span class="white-text">Địa chỉ:</span></td>
+                    <td><input type="text" name="user_addr" class="form-input"></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><span class="white-text">Upload Your Pushchase Receipt:</span></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"> <input id="file-upload" type="file" accept="images/jpeg, images/png"  name="file" data-preview-img="file" data-upload-input="thum_base64" data-max-height="270">
+                        <span class="white-text"><i>Kích thước ảnh không được quá 2MB / jpg.</i></span></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <label class="white-text"><input type="checkbox">Tôi đồng ý với điều kiện ban tổ chức đưa ra</label>
+                    </td>
+                  </tr>
+                </table>
+              </div>
             </div>
             <div class="row text-center">
               <button class="btn-custom" type="submit"><b>Gửi thông tin</b></button>
