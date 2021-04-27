@@ -42,7 +42,7 @@ img{
     background-color: #f7c9ca;
 }
 .img-1{
-    width: 70%;
+    width: 100%;
 }
 /* .promotion{
     width: 100%;
@@ -161,17 +161,24 @@ input[type=text]:focus{
 } */
 /* @media only screen and (max-device-width: 600px) { */
     .fs-gift-detail{
-        font-size: 1.5vw ;
-        line-height: 2.1vw;
+        font-size: 1.2vw ;
+        line-height: 2vw;
     }
 /* } */
 .center{
     text-align: center;
 }
-
-.width-container{
-    width: 80%;
+@media only screen and (min-device-width: 600px) {
+    .width-container{
+        width: 65%;
+    }
 }
+@media only screen and (max-device-width: 600px) {
+    .width-container{
+        width: 80%;
+    }
+}
+
 .footer{
     background-color: #424040;
     padding-left: 10px;
