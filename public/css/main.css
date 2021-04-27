@@ -14,7 +14,7 @@ body{
 }
 .container{
     background-color: #efece5;
-    padding: 10px 10px 0 10px;
+    padding: 10px 10px 20px 10px;
 }
 .row{
     width: 100%;
@@ -34,6 +34,9 @@ img{
     max-width: 50%;
     background-color: #f7c9ca;
     position: relative;
+}
+.height-title-img{
+    height: 101%;
 }
 .pink-bg{
     background-color: #f7c9ca;
@@ -93,7 +96,7 @@ input[type=text]:focus{
     border-spacing: 0 0.5em;
 }
 .title-infor{
-    font-size: 1.7em;
+    font-size: 1.3rem;
 }
 
 .btn-custom{
