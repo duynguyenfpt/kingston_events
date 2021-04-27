@@ -153,7 +153,7 @@ input[type=text]:focus{
 }
 @media screen and (max-width: 1024px) {
     .fs-gift-detail{
-        font-size: 4px;
+        font-size: 0.35rem;
     }
 }
 .center{
