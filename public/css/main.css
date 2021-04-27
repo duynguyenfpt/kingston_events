@@ -125,11 +125,12 @@ input[type=text]:focus{
     max-width: 40%;
     position: absolute;
     top: 4%;
-    right: -10%;
+    right: -20%;
 }
 .title-img-3{
     max-width: 30%;
-    margin-left: 5%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 .flex-cl{
     display: flex;
