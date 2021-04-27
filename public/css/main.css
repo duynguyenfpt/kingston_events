@@ -156,9 +156,9 @@ input[type=text]:focus{
         font-size: 0.35rem;
     }
 } */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-device-width: 600px) {
     .fs-gift-detail{
-        font-size: 0.1rem;
+        font-size: 0.3rem;
     }
 }
 .center{
