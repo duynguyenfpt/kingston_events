@@ -137,7 +137,7 @@ input[type=text]:focus{
     position: relative;
 }
 .gift-img{
-    max-width: 70%;
+    max-width: 60%;
     right: 5%;
     top: 2%;
 }
