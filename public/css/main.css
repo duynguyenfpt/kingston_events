@@ -10,12 +10,11 @@ body{
     height: auto;
 }
 .wrapper{
-   background-color: blueviolet;
-   padding: 5px 5px 0 5px;
  
 }
 .container{
-    border: 1px solid #0d0d0d;
+    background-color: #efece5;
+    padding: 10px 10px 0 10px;
 }
 .row{
     width: 100%;
@@ -32,7 +31,7 @@ img{
     max-width: 150px;
 }
 .title-img{
-    max-width: 40%;
+    max-width: 50%;
     background-color: #f7c9ca;
     position: relative;
 }
@@ -54,8 +53,11 @@ img{
 }
 .information{
     background-color: #3ca6a6;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.information-container{
+    padding: 20px 0 20px 0;
 }
 .white-text{
     color:#ffffff;
@@ -104,7 +106,10 @@ input[type=text]:focus{
 }
 .rule{
     background-color: #fbf6e6;
-    padding: 30px 50px 30px 50px;
+    padding: 0 10px 0 10px;
+}
+.rule-container{
+    padding: 50px 40px 20px 40px;
 }
 .detail{
     padding-left: 15px;
@@ -128,7 +133,7 @@ input[type=text]:focus{
     flex-direction: column;
 }
 .second-title-img{
-    max-width: 80%;
+    max-width: 100%;
     position: relative;
 }
 .gift-img{
@@ -155,3 +160,34 @@ input[type=text]:focus{
     text-align: center;
 }
 
+.width-container{
+   
+    width: 95%;
+}
+.footer{
+    background-color: #424040;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-container{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.border-container{
+    display: flex;
+    justify-content: center;
+}
+.border-top{
+    border-top: 1px solid #0d0d0d;
+}
+.border-left{
+    border-left: 1px solid #0d0d0d;
+}
+.border-right{
+    border-right: 1px solid #0d0d0d;
+}
+.border-bottom{
+    border-bottom: 1px solid #0d0d0d;
+}
