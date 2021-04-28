@@ -66,9 +66,9 @@ img{
 }
 .form-input{
     display: block;
-    width: 100%;
-    padding: .375rem 0rem;
-    font-size: 1rem;
+    width: 96%;
+    padding: .375rem 0.4rem;
+    font-size: 0.8rem;
     font-weight: 400;
     line-height: 1.2;
     color: #212529;
