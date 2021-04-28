@@ -27,14 +27,14 @@ img{
 
 .title-img{
     max-width: 50%;
-    background-color: #f7c9ca;
+    /* background-color: #f7c9ca; */
     position: relative;
 }
 .height-title-img{
     height: 101%;
 }
 .pink-bg{
-    background-color: #f7c9ca;
+    /* background-color: #f7c9ca; */
 }
 .img-1{
     width: 100%;
@@ -191,6 +191,9 @@ input[type=text]:focus{
     }
     .form-container{
         width: 85%;
+    }
+    .sp-between{
+        justify-content: space-between;
     }
 }
 
